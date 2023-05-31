@@ -1029,7 +1029,6 @@ export { MdWifiTetheringErrorRounded } from './ico/MdWifiTetheringErrorRounded.t
 export { MdWifiTetheringError } from './ico/MdWifiTetheringError.ts';
 export { MdWifiTetheringOff } from './ico/MdWifiTetheringOff.ts';
 export { MdWifiTethering } from './ico/MdWifiTethering.ts';
-export { MdAddChart } from './ico/MdAddChart.ts';
 export { MdAddComment } from './ico/MdAddComment.ts';
 export { MdAlignHorizontalCenter } from './ico/MdAlignHorizontalCenter.ts';
 export { MdAlignHorizontalLeft } from './ico/MdAlignHorizontalLeft.ts';
@@ -3223,7 +3222,6 @@ export { MdOutlineWifiTetheringErrorRounded } from './ico/MdOutlineWifiTethering
 export { MdOutlineWifiTetheringError } from './ico/MdOutlineWifiTetheringError.ts';
 export { MdOutlineWifiTetheringOff } from './ico/MdOutlineWifiTetheringOff.ts';
 export { MdOutlineWifiTethering } from './ico/MdOutlineWifiTethering.ts';
-export { MdOutlineAddChart } from './ico/MdOutlineAddChart.ts';
 export { MdOutlineAddComment } from './ico/MdOutlineAddComment.ts';
 export { MdOutlineAlignHorizontalCenter } from './ico/MdOutlineAlignHorizontalCenter.ts';
 export { MdOutlineAlignHorizontalLeft } from './ico/MdOutlineAlignHorizontalLeft.ts';
