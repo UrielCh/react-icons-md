@@ -23,17 +23,25 @@ For a transparent usage:
 
 ## Direct import sample
 
-`import { Md123 } from "https://deno.land/x/react_icons_md@1.0.1/mod.ts"`
+```ts
+import { Md123 } from "https://deno.land/x/react_icons_md@1.0.1/mod.ts"
+```
 
 ## import_map import sample
 
-`import { Md123 } from "react-icons/md"`
+```ts
+import { Md123 } from "react-icons/md"
+```
 
 ## minimal import
 
-`import { Md123 } from "react-icons/md/Md123.ts"`
+```ts
+import { Md123 } from "react-icons/md/Md123.ts"
+```
 
-## minimal import default
+## minimal import using default export
 
-`import Md123 from "react-icons/md/Md123.ts"`
+```ts
+import Md123 from "react-icons/md/Md123.ts"
+```
 
