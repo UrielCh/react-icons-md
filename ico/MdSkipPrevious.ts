@@ -1,6 +1,6 @@
 import { GenIcon, type IconBaseProps } from "../deps.ts";
 
 export function MdSkipPrevious(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24"},child:[{tag:"path",attr:{fill:"none",d:"M0 0h24v24H0z"}},{tag:"path",attr:{d:"M6 6h2v12H6zm3.5 6l8.5 6V6z"}}]})(props);
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24"},child:[{tag:"path",attr:{fill:"none",d:"M0 0h24v24H0z"}},{tag:"path",attr:{d:"M6 6h2v12H6zm3.5 6 8.5 6V6z"},child:[]}]})(props);
 }
 export default MdSkipPrevious;
