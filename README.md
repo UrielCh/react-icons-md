@@ -8,39 +8,56 @@
 
 [See available icons here](https://react-icons.deno.dev/md)
 
-## import_map.json
+## install packahe
 
-For a transparent usage:
-
-```json
-{
-  "imports": {
-    "@preact-icons/common": "jsr:@preact-icons/common@^1.0.10",
-    "preact": "npm:preact@10.22.1",
-    "preact/jsx-runtime": "npm:preact@10.22.1/jsx-runtime",
-    "preact/hooks": "npm:preact@10.22.1/hooks",
-    "react-icons/md": "jsr:@preact-icons/md@^1.0.11/mod.ts",
-    "react-icons/md/": "jsr:@preact-icons/md@^1.0.11/ico/",
-  }
-}
+```bash
+deno add @preact-icons/md
+dnpx jsr add @preact-icons/md
+pnpm dlx jsr add @preact-icons/md
+bunx jsr add @preact-icons/md
 ```
 
-## Import an icon without import_map by and afer loading all icons from the lib md
+You may need to update your preact mapping to:
+ - "preact": "npm:preact@10.22.1",
+ - "preact/jsx-runtime": "npm:preact@10.22.1/jsx-runtime",
+ - "preact/hooks": "npm:preact@10.22.1/hooks",
 
-```ts
-import { Md123 } from "jsr:preact-icons/md@1.0.11/mod.ts"
+
+# Material Design icons icons for preact
+
+[![JSR](https://jsr.io/badges/@preact-icons/md)](https://jsr.io/@preact-icons/md)
+
+**License** [Apache License Version 2.0](https://github.com/google/material-design-icons/blob/master/LICENSE)
+
+**Project** [http://google.github.io/material-design-icons/](http://google.github.io/material-design-icons/)
+
+[See available icons here](https://react-icons.deno.dev/md)
+
+## install packahe
+
+```bash
+deno add @preact-icons/md
+dnpx jsr add @preact-icons/md
+pnpm dlx jsr add @preact-icons/md
+bunx jsr add @preact-icons/md
 ```
 
-## import_map import an icon from all icons
+You may need to update your preact mapping to:
+ - "preact": "npm:preact@10.22.1",
+ - "preact/jsx-runtime": "npm:preact@10.22.1/jsx-runtime",
+ - "preact/hooks": "npm:preact@10.22.1/hooks",
+
+
+## import an icon from all icons
 
 ```ts
-import { Md123 } from "react-icons/md"
+import { Md123 } from "@preact-icons/md"
 ```
 
 ## import a single icon, downloading just one icon
 
 ```ts
-import { Md123 } from "react-icons/md/Md123.ts"
+import { Md123 } from "react-icons/md/Md123"
 ```
 
 or using default export
