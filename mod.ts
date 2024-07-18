@@ -44,7 +44,7 @@
  * or using default export
  * 
  * ```ts
- * import Md123 from "react-icons/md/Md123.ts"
+ * import Md123 from "react-icons/md/Md123"
  * ```
  * @module
  * 
