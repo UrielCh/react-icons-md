@@ -1,4 +1,6 @@
-# Material Design icons icons for deno / Preact
+# Material Design icons icons for preact
+
+[![JSR](https://jsr.io/badges/@preact-icons/md)](https://jsr.io/@preact-icons/md)
 
 **License** [Apache License Version 2.0](https://github.com/google/material-design-icons/blob/master/LICENSE)
 
@@ -13,12 +15,12 @@ For a transparent usage:
 ```json
 {
   "imports": {
-    "@preact-icons/common": "jsr:@preact-icons/common@^1.0.9",
+    "@preact-icons/common": "jsr:@preact-icons/common@^1.0.10",
     "preact": "npm:preact@10.22.1",
     "preact/jsx-runtime": "npm:preact@10.22.1/jsx-runtime",
     "preact/hooks": "npm:preact@10.22.1/hooks",
-    "react-icons/md": "jsr:@preact-icons/md@^1.0.10/mod.ts",
-    "react-icons/md/": "jsr:@preact-icons/md@^1.0.10/ico/",
+    "react-icons/md": "jsr:@preact-icons/md@^1.0.11/mod.ts",
+    "react-icons/md/": "jsr:@preact-icons/md@^1.0.11/ico/",
   }
 }
 ```
@@ -26,7 +28,7 @@ For a transparent usage:
 ## Import an icon without import_map by and afer loading all icons from the lib md
 
 ```ts
-import { Md123 } from "jsr:preact-icons/md@1.0.10/mod.ts"
+import { Md123 } from "jsr:preact-icons/md@1.0.11/mod.ts"
 ```
 
 ## import_map import an icon from all icons

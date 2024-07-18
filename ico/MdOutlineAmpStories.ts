@@ -1,6 +1,10 @@
 import { GenIcon } from "../deps.ts";
 import type { IconBaseProps, JSX, VNode } from "../deps.ts";
 
+/**
+ * OutlineAmpStories icon from Material Design icons
+ * @module
+ */
 export function MdOutlineAmpStories(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24"},child:[{tag:"path",attr:{fill:"none",d:"M0 0h24v24H0z"}},{tag:"path",attr:{d:"M7 19h10V4H7v15zM9 6h6v11H9V6zM3 6h2v11H3zM19 6h2v11h-2z"},child:[]}]})(props);
 }
